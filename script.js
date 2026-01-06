@@ -35,7 +35,6 @@ async function loadJSON(path){
 }
 
 function unique(arr){ return Array.from(new Set(arr)).filter(Boolean); }
-
 function byTotalDesc(a,b){ return (b.total_end_2025||0)-(a.total_end_2025||0); }
 
 function applyRoster(players, roster){
@@ -61,50 +60,39 @@ function applyRoster(players, roster){
     out = players.slice().sort(byTotalDesc);
   }
 
-  out = out.map(p => {
+  out = out.map((p, idx) => {
     const o = overrides[p.nick] || {};
     const displayName = o.displayName || p.nick;
     const photoFile = o.photoFile || (sanitizeFilename(p.nick) + ".jpg");
     return {
       ...p,
       displayName,
-      photo: `assets/photos/${photoFile}`
+      photo: `assets/photos/${photoFile}`,
+      joinedIndex: idx
     };
   });
 
   return out;
 }
 
-function buildMvpOptions(players){
-  const sel = document.getElementById("filterMvp");
-  sel.querySelectorAll("option:not(:first-child)").forEach(o => o.remove());
-  unique(players.map(p=>p.mvp)).sort().forEach(v=>{
-    const o=document.createElement("option");
-    o.value=v; o.textContent=v;
-    sel.appendChild(o);
-  });
+function getType(){
+  return document.getElementById("type").value; // abs_end | rel | growth
 }
 
-function getDataMode(){
-  return document.getElementById("viewMode").value; // end | growth
-}
-function getValueMode(){
-  return document.getElementById("valueMode").value; // absolute | relative
-}
-
-function getBestElement(p, dataMode, valueMode, relMap){
+function getBestElement(p, type, relMap){
   let bestEl = null;
   let bestVal = -Infinity;
 
   for (const el of ELEMENTS){
     let val = null;
 
-    if (valueMode === "relative"){
-      const relRow = relMap?.[p.nick] || relMap?.[p.displayName] || null;
+    if (type === "rel"){
+      const relRow = relMap?.[p.nick] || null;
       val = relRow?.[el];
-    } else {
-      const info = p.elements?.[el] || {};
-      val = (dataMode==="growth") ? info.growth : info.end;
+    } else if (type === "growth") {
+      val = p.elements?.[el]?.growth;
+    } else { // abs_end
+      val = p.elements?.[el]?.end;
     }
 
     if (val === null || val === undefined || Number.isNaN(val)) continue;
@@ -116,32 +104,47 @@ function getBestElement(p, dataMode, valueMode, relMap){
   return bestEl;
 }
 
-function computePerCardMax(p, dataMode){
+function computePerCardMax(p, type){
+  if (type === "rel") return 100; // 0..100 directly
   let m = 0;
   for (const el of ELEMENTS){
-    const info = p.elements?.[el] || {};
-    const val = (dataMode==="growth") ? info.growth : info.end;
+    const val = (type === "growth") ? p.elements?.[el]?.growth : p.elements?.[el]?.end;
     if (val === null || val === undefined || Number.isNaN(val)) continue;
     m = Math.max(m, Math.abs(val));
   }
-  return m;
+  return m || 0.0000001;
+}
+
+function buildBestElementFilter(players, type, relMap){
+  const sel = document.getElementById("filterMvp");
+  sel.querySelectorAll("option:not(:first-child)").forEach(o => o.remove());
+
+  unique(players.map(p => getBestElement(p, type, relMap))).sort().forEach(v=>{
+    if (!v) return;
+    const o=document.createElement("option");
+    o.value=v; o.textContent=v;
+    sel.appendChild(o);
+  });
 }
 
 function render(players, relMap, titlesMap){
   const q = (document.getElementById("q").value || "").trim().toLowerCase();
   const f = document.getElementById("filterMvp").value;
   const sortBy = document.getElementById("sortBy").value;
-  const dataMode = getDataMode();
-  const valueMode = getValueMode();
+  const type = getType();
 
   let view = players.slice();
   if (q) view = view.filter(p => (p.displayName || p.nick || "").toLowerCase().includes(q));
-  if (f) view = view.filter(p => p.mvp === f);
+
+  if (f){
+    view = view.filter(p => getBestElement(p, type, relMap) === f);
+  }
 
   if (sortBy==="total_desc") view.sort((a,b)=>(b.total_end_2025||0)-(a.total_end_2025||0));
   if (sortBy==="total_asc") view.sort((a,b)=>(a.total_end_2025||0)-(b.total_end_2025||0));
   if (sortBy==="name_asc") view.sort((a,b)=> String(a.displayName||a.nick).localeCompare(String(b.displayName||b.nick)));
   if (sortBy==="name_desc") view.sort((a,b)=> String(b.displayName||b.nick).localeCompare(String(a.displayName||a.nick)));
+  if (sortBy==="joined") view.sort((a,b)=>(a.joinedIndex??0)-(b.joinedIndex??0));
 
   const grid = document.getElementById("grid");
   grid.innerHTML = "";
@@ -172,16 +175,21 @@ function render(players, relMap, titlesMap){
 
     const badges = document.createElement("div");
     badges.className = "badges";
-    if (p.mvp){
+
+    // Renamed badges
+    const absBest = getBestElement(p, "abs_end", relMap);
+    const relBest = getBestElement(p, "rel", relMap);
+
+    if (absBest){
       const b = document.createElement("div");
       b.className="badge";
-      b.textContent = `MVP: ${p.mvp}`;
+      b.textContent = `Absolute best: ${absBest}`;
       badges.appendChild(b);
     }
-    if (p.best_rank){
+    if (relBest){
       const b = document.createElement("div");
       b.className="badge";
-      b.textContent = `Best (ranking): ${p.best_rank}`;
+      b.textContent = `Relative best: ${relBest}`;
       badges.appendChild(b);
     }
 
@@ -215,30 +223,30 @@ function render(players, relMap, titlesMap){
     const bars = document.createElement("div");
     bars.className="bars";
 
-    const bestEl = getBestElement(p, dataMode, valueMode, relMap);
-
-    // Scaling
-    const maxVal = computePerCardMax(p, dataMode) || 0.0000001;
+    const bestElForType = getBestElement(p, type, relMap);
+    const maxVal = computePerCardMax(p, type);
 
     for (const el of ELEMENTS){
-      let val = null;
-      let barW = 0;
       let shown = "—";
+      let barW = 0;
 
-      if (valueMode === "relative"){
+      if (type === "rel"){
         const relRow = relMap?.[p.nick] || null;
-        val = relRow?.[el];
+        const val = relRow?.[el];
         barW = (val === null || val === undefined || Number.isNaN(val)) ? 0 : Math.max(0, Math.min(100, val));
         shown = (val === null || val === undefined || Number.isNaN(val)) ? "—" : `${val}%`;
-      } else {
-        const info = p.elements?.[el] || {};
-        val = (dataMode==="growth") ? info.growth : info.end;
+      } else if (type === "growth") {
+        const val = p.elements?.[el]?.growth;
         barW = (val === null || val === undefined || Number.isNaN(val)) ? 0 : Math.min(100, Math.round((Math.abs(val)/maxVal)*100));
-        shown = (dataMode==="growth") ? pct(val) : fmt(val);
+        shown = pct(val);
+      } else { // abs_end
+        const val = p.elements?.[el]?.end;
+        barW = (val === null || val === undefined || Number.isNaN(val)) ? 0 : Math.min(100, Math.round((Math.abs(val)/maxVal)*100));
+        shown = fmt(val);
       }
 
       const row = document.createElement("div");
-      row.className = "row" + (bestEl===el ? " best" : "");
+      row.className = "row" + (bestElForType===el ? " best" : "");
 
       const elDiv = document.createElement("div");
       elDiv.className="el";
@@ -267,8 +275,11 @@ function render(players, relMap, titlesMap){
 
     const footer = document.createElement("div");
     footer.className="footer";
+    const typeLabel = (type==="abs_end")
+      ? "Type: Absolute element ranking"
+      : (type==="rel" ? "Type: Relative element ranking" : "Type: Growth (from first to last)");
     footer.innerHTML = `
-      <div class="pill">${valueMode==="relative" ? "Mode: relative % (sheet)" : (dataMode==="growth" ? "Mode: growth (2025)" : "Mode: end-2025 (absolute)")}</div>
+      <div class="pill">${typeLabel}</div>
       <div class="pill">Best element highlighted</div>
     `;
 
@@ -295,17 +306,22 @@ async function init(){
 
   const playersRaw = (dataRes.status==="fulfilled") ? dataRes.value.players : [];
   const rosterObj = (rosterRes.status==="fulfilled") ? rosterRes.value : null;
-
   const relMap = (relRes.status==="fulfilled") ? (relRes.value.relative_percent || {}) : {};
   const titlesMap = (titlesRes.status==="fulfilled") ? titlesRes.value : {};
 
   const players = applyRoster(playersRaw, rosterObj);
 
-  buildMvpOptions(players);
+  // Default sort = joined
+  const sortSel = document.getElementById("sortBy");
+  if (sortSel) sortSel.value = "joined";
 
-  const rerender = () => render(players, relMap, titlesMap);
+  const rerender = () => {
+    const type = getType();
+    buildBestElementFilter(players, type, relMap);
+    render(players, relMap, titlesMap);
+  };
 
-  ["q","filterMvp","sortBy","viewMode","valueMode"].forEach(id=>{
+  ["q","filterMvp","sortBy","type"].forEach(id=>{
     document.getElementById(id).addEventListener("input", rerender);
     document.getElementById(id).addEventListener("change", rerender);
   });

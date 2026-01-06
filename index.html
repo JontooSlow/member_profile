@@ -13,28 +13,26 @@
         <h1>Slowteam — Player Cards (2025)</h1>
         <div class="sub">
           Photos: <code>assets/photos/&lt;Nick&gt;.jpg</code> (e.g., <code>Jon_Slow.jpg</code>, <code>PSET.jpg</code>).<br/>
-          Absolute bars are scaled <b>within each player</b> (100% = that player’s best element). The best element is highlighted.
+          Joined order comes from <code>data/roster.json</code> and is used as the default sort.
         </div>
       </div>
 
       <div class="controls">
         <input id="q" placeholder="Search by nickname…" />
         <select id="filterMvp">
-          <option value="">Filter by MVP element (all)</option>
+          <option value="">Filter by best element (all)</option>
         </select>
         <select id="sortBy">
+          <option value="joined" selected>Sort: Joined</option>
           <option value="total_desc">Sort: Total 2025 ↓</option>
           <option value="total_asc">Sort: Total 2025 ↑</option>
           <option value="name_asc">Sort: Nick A→Z</option>
           <option value="name_desc">Sort: Nick Z→A</option>
         </select>
-        <select id="viewMode">
-          <option value="end">Data: End-2025</option>
-          <option value="growth">Data: Growth (if start exists)</option>
-        </select>
-        <select id="valueMode">
-          <option value="absolute">Values: Absolute</option>
-          <option value="relative">Values: Relative (from sheet)</option>
+        <select id="type">
+          <option value="abs_end" selected>Type: Absolute element ranking</option>
+          <option value="rel">Type: Relative element ranking</option>
+          <option value="growth">Type: Growth (from first to last)</option>
         </select>
       </div>
     </div>
