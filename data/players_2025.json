@@ -72,7 +72,7 @@
     {
       "nick": "Bario no Aza",
       "nick_slug": "Bario_no_Aza",
-      "photo": "assets/photos/Bario_no_Aza.jpg",
+      "photo": "assets/photos/Bario_no_Aza.png",
       "total_end_2025": 2630982729.0,
       "mvp": "Elec",
       "best_rank": "Elec",
@@ -125,7 +125,7 @@
     {
       "nick": "Daedalus",
       "nick_slug": "Daedalus",
-      "photo": "assets/photos/Daedalus.jpg",
+      "photo": "assets/photos/Daedalus.png",
       "total_end_2025": 1987255914.0,
       "mvp": "Elec",
       "best_rank": "Light",
@@ -466,7 +466,7 @@
     {
       "nick": "Jade",
       "nick_slug": "Jade",
-      "photo": "assets/photos/Jade.jpg",
+      "photo": "assets/photos/Jade.png",
       "total_end_2025": 361691922.0,
       "mvp": "Elec",
       "best_rank": "Light",
@@ -513,7 +513,7 @@
     {
       "nick": "Jon Slow",
       "nick_slug": "Jon_Slow",
-      "photo": "assets/photos/Jon_Slow.jpg",
+      "photo": "assets/photos/Jon_Slow.png",
       "total_end_2025": 5860394804.0,
       "mvp": "Elec",
       "best_rank": "Ice",
@@ -613,7 +613,7 @@
     {
       "nick": "Jupiter",
       "nick_slug": "Jupiter",
-      "photo": "assets/photos/Jupiter.jpg",
+      "photo": "assets/photos/Jupiter.png",
       "total_end_2025": 1362126786.0,
       "mvp": "Phys",
       "best_rank": "Phys",
@@ -672,7 +672,7 @@
     {
       "nick": "Kaede",
       "nick_slug": "Kaede",
-      "photo": "assets/photos/Kaede.jpg",
+      "photo": "assets/photos/Kaede.png",
       "total_end_2025": 486073534.0,
       "mvp": "Ice",
       "best_rank": "Ice",
@@ -882,68 +882,9 @@
       }
     },
     {
-      "nick": "Missing results",
-      "nick_slug": "Missing_results",
-      "photo": "assets/photos/Missing_results.jpg",
-      "total_end_2025": 46905163.60581,
-      "mvp": "Light",
-      "best_rank": null,
-      "elements": {
-        "Phys": {
-          "start_label": "Apr 2025",
-          "end_label": "Sep 2025",
-          "start": 117597712.0,
-          "end": -44359.0,
-          "growth": -1.0003772097198627
-        },
-        "Elec": {
-          "start_label": "Feb 2025",
-          "end_label": "Nov 2025",
-          "start": 26105542.0,
-          "end": 0.0,
-          "growth": -1.0
-        },
-        "Fire": {
-          "start_label": "May 2025",
-          "end_label": "Aug 2025",
-          "start": 2685.0,
-          "end": 19362.0,
-          "growth": 6.211173184357542
-        },
-        "Ice": {
-          "start_label": "Mar 2025",
-          "end_label": "Dec 2025",
-          "start": 131111008.0,
-          "end": 0.0,
-          "growth": -1.0
-        },
-        "Force": {
-          "start_label": "Feb 2025",
-          "end_label": "Dec 2025",
-          "start": 142963687.0,
-          "end": 0.0,
-          "growth": -1.0
-        },
-        "Light": {
-          "start_label": "Mar 2025",
-          "end_label": "Oct 2025",
-          "start": 356155260.0,
-          "end": 46952072.0,
-          "growth": -0.8681696516288991
-        },
-        "Dark": {
-          "start_label": "Jan 2025",
-          "end_label": "Oct 2025",
-          "start": 64760643.0,
-          "end": -21911.39419,
-          "growth": -1.0003383442963962
-        }
-      }
-    },
-    {
       "nick": "Moroha",
       "nick_slug": "Moroha",
-      "photo": "assets/photos/Moroha.jpg",
+      "photo": "assets/photos/Moroha.png",
       "total_end_2025": 2593717464.0,
       "mvp": "Elec",
       "best_rank": "Elec",
@@ -1002,7 +943,7 @@
     {
       "nick": "Mulhollandr",
       "nick_slug": "Mulhollandr",
-      "photo": "assets/photos/Mulhollandr.jpg",
+      "photo": "assets/photos/Mulhollandr.png",
       "total_end_2025": 1296713882.0,
       "mvp": "Elec",
       "best_rank": "Ice",
@@ -1037,7 +978,7 @@
     {
       "nick": "Namic",
       "nick_slug": "Namic",
-      "photo": "assets/photos/Namic.jpg",
+      "photo": "assets/photos/Namic.png",
       "total_end_2025": 1871664076.0,
       "mvp": "Force",
       "best_rank": "Force",
@@ -1137,7 +1078,7 @@
     {
       "nick": "OxyMorOn",
       "nick_slug": "OxyMorOn",
-      "photo": "assets/photos/OxyMorOn.jpg",
+      "photo": "assets/photos/Oxy.png",
       "total_end_2025": 891424717.0,
       "mvp": "Phys",
       "best_rank": null,
@@ -1185,29 +1126,6 @@
           "end": 125613387.0,
           "growth": null
         }
-      }
-    },
-    {
-      "nick": "Oxymoron",
-      "nick_slug": "Oxymoron",
-      "photo": "assets/photos/Oxymoron.jpg",
-      "total_end_2025": 165581117.0,
-      "mvp": "Elec",
-      "best_rank": "Ice",
-      "elements": {
-        "Phys": {},
-        "Elec": {
-          "start_label": "Feb 2025",
-          "end_label": "Nov 2025",
-          "start": null,
-          "end": 165581117.0,
-          "growth": null
-        },
-        "Fire": {},
-        "Ice": {},
-        "Force": {},
-        "Light": {},
-        "Dark": {}
       }
     },
     {
@@ -1329,144 +1247,9 @@
       }
     },
     {
-      "nick": "Saints",
-      "nick_slug": "Saints",
-      "photo": "assets/photos/Saints.jpg",
-      "total_end_2025": 16871146.0,
-      "mvp": "Fire",
-      "best_rank": null,
-      "elements": {
-        "Phys": {},
-        "Elec": {},
-        "Fire": {
-          "start_label": "May 2025",
-          "end_label": "Aug 2025",
-          "start": 46096157.0,
-          "end": 16871146.0,
-          "growth": -0.6340010296303009
-        },
-        "Ice": {},
-        "Force": {},
-        "Light": {},
-        "Dark": {}
-      }
-    },
-    {
-      "nick": "Share of missing results",
-      "nick_slug": "Share_of_missing_results",
-      "photo": "assets/photos/Share_of_missing_results.jpg",
-      "total_end_2025": 0.007057028988138999,
-      "mvp": "Light",
-      "best_rank": null,
-      "elements": {
-        "Phys": {
-          "start_label": "Apr 2025",
-          "end_label": "Sep 2025",
-          "start": 0.02683348445,
-          "end": -4.836340957e-06,
-          "growth": -1.0001802352939295
-        },
-        "Elec": {},
-        "Fire": {
-          "start_label": "May 2025",
-          "end_label": "Aug 2025",
-          "start": 6.681429232714099e-07,
-          "end": 3.775819812e-06,
-          "growth": 4.65121575113384
-        },
-        "Ice": {
-          "start_label": "Mar 2025",
-          "end_label": "Dec 2025",
-          "start": 0.06687366768241551,
-          "end": 0.0,
-          "growth": -1.0
-        },
-        "Force": {
-          "start_label": "Feb 2025",
-          "end_label": "Dec 2025",
-          "start": 0.05857422077042605,
-          "end": 0.0,
-          "growth": -1.0
-        },
-        "Light": {
-          "start_label": "Mar 2025",
-          "end_label": "Oct 2025",
-          "start": 0.1138178476,
-          "end": 0.007061483194,
-          "growth": -0.9379580325678203
-        },
-        "Dark": {
-          "start_label": "Jan 2025",
-          "end_label": "Oct 2025",
-          "start": 0.03315205188797067,
-          "end": -3.393684716e-06,
-          "growth": -1.0001023672600255
-        }
-      }
-    },
-    {
-      "nick": "Shared results",
-      "nick_slug": "Shared_results",
-      "photo": "assets/photos/Shared_results.jpg",
-      "total_end_2025": 50957403278.0,
-      "mvp": "Phys",
-      "best_rank": null,
-      "elements": {
-        "Phys": {
-          "start_label": "Apr 2025",
-          "end_label": "Sep 2025",
-          "start": 4264901036.0,
-          "end": 9172061053.0,
-          "growth": 1.1505917665096321
-        },
-        "Elec": {
-          "start_label": "Feb 2025",
-          "end_label": "Nov 2025",
-          "start": 2139952334.0,
-          "end": 8884557995.0,
-          "growth": 3.15175508998043
-        },
-        "Fire": {
-          "start_label": "May 2025",
-          "end_label": "Aug 2025",
-          "start": 4018598585.0,
-          "end": 5127873643.0,
-          "growth": 0.2760352980117322
-        },
-        "Ice": {
-          "start_label": "Mar 2025",
-          "end_label": "Dec 2025",
-          "start": 1829466489.0,
-          "end": 7234311971.0,
-          "growth": 2.954328769888717
-        },
-        "Force": {
-          "start_label": "Feb 2025",
-          "end_label": "Dec 2025",
-          "start": 2297763396.0,
-          "end": 7479970228.0,
-          "growth": 2.2553265671397265
-        },
-        "Light": {
-          "start_label": "Mar 2025",
-          "end_label": "Oct 2025",
-          "start": 2773013562.0,
-          "end": 6602086198.0,
-          "growth": 1.3808344425255283
-        },
-        "Dark": {
-          "start_label": "Jan 2025",
-          "end_label": "Oct 2025",
-          "start": 1888682336.0,
-          "end": 6456542190.0,
-          "growth": 2.418543217635091
-        }
-      }
-    },
-    {
       "nick": "Skibidi",
       "nick_slug": "Skibidi",
-      "photo": "assets/photos/Skibidi.jpg",
+      "photo": "assets/photos/Skibidi.png",
       "total_end_2025": 613963964.0,
       "mvp": "Phys",
       "best_rank": "Force",
@@ -1525,7 +1308,7 @@
     {
       "nick": "Sunder",
       "nick_slug": "Sunder",
-      "photo": "assets/photos/Sunder.jpg",
+      "photo": "assets/photos/Sunder.png",
       "total_end_2025": 2183767078.0,
       "mvp": "Ice",
       "best_rank": "Ice",
@@ -1877,65 +1660,6 @@
       }
     },
     {
-      "nick": "TOP-3 share",
-      "nick_slug": "TOP-3_share",
-      "photo": "assets/photos/TOP-3_share.jpg",
-      "total_end_2025": 2.1946565285,
-      "mvp": "Dark",
-      "best_rank": null,
-      "elements": {
-        "Phys": {
-          "start_label": "Apr 2025",
-          "end_label": "Sep 2025",
-          "start": 0.34479538680748983,
-          "end": 0.3061151173,
-          "growth": -0.11218325704887178
-        },
-        "Elec": {
-          "start_label": "Feb 2025",
-          "end_label": "Nov 2025",
-          "start": 0.3033696335083523,
-          "end": 0.32460578,
-          "growth": 0.07000089707746926
-        },
-        "Fire": {
-          "start_label": "May 2025",
-          "end_label": "Aug 2025",
-          "start": 0.2975655830616905,
-          "end": 0.3362746045,
-          "growth": 0.13008568074314053
-        },
-        "Ice": {
-          "start_label": "Mar 2025",
-          "end_label": "Dec 2025",
-          "start": 0.2918658124331211,
-          "end": 0.3039415841,
-          "growth": 0.04137439587805769
-        },
-        "Force": {
-          "start_label": "Feb 2025",
-          "end_label": "Dec 2025",
-          "start": 0.314,
-          "end": 0.2778547974,
-          "growth": -0.1151121101910827
-        },
-        "Light": {
-          "start_label": "Mar 2025",
-          "end_label": "Oct 2025",
-          "start": 0.2491545973865644,
-          "end": 0.2516759844,
-          "growth": 0.010119769170960469
-        },
-        "Dark": {
-          "start_label": "Jan 2025",
-          "end_label": "Oct 2025",
-          "start": 0.3611789550986428,
-          "end": 0.3941886608,
-          "growth": 0.09139432194309838
-        }
-      }
-    },
-    {
       "nick": "Tornberry",
       "nick_slug": "Tornberry",
       "photo": "assets/photos/Tornberry.jpg",
@@ -1997,7 +1721,7 @@
     {
       "nick": "Xiashi",
       "nick_slug": "Xiashi",
-      "photo": "assets/photos/Xiashi.jpg",
+      "photo": "assets/photos/Xiashi.png",
       "total_end_2025": 718653467.0,
       "mvp": "Force",
       "best_rank": "Force",
