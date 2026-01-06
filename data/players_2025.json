@@ -72,7 +72,7 @@
     {
       "nick": "Bario no Aza",
       "nick_slug": "Bario_no_Aza",
-      "photo": "assets/photos/Bario_no_Aza.png",
+      "photo": "assets/photos/Bario_no_Aza.jpg",
       "total_end_2025": 2630982729.0,
       "mvp": "Elec",
       "best_rank": "Elec",
@@ -125,7 +125,7 @@
     {
       "nick": "Daedalus",
       "nick_slug": "Daedalus",
-      "photo": "assets/photos/Daedalus.png",
+      "photo": "assets/photos/Daedalus.jpg",
       "total_end_2025": 1987255914.0,
       "mvp": "Elec",
       "best_rank": "Light",
@@ -466,7 +466,7 @@
     {
       "nick": "Jade",
       "nick_slug": "Jade",
-      "photo": "assets/photos/Jade.png",
+      "photo": "assets/photos/Jade.jpg",
       "total_end_2025": 361691922.0,
       "mvp": "Elec",
       "best_rank": "Light",
@@ -513,7 +513,7 @@
     {
       "nick": "Jon Slow",
       "nick_slug": "Jon_Slow",
-      "photo": "assets/photos/Jon_Slow.png",
+      "photo": "assets/photos/Jon_Slow.jpg",
       "total_end_2025": 5860394804.0,
       "mvp": "Elec",
       "best_rank": "Ice",
@@ -613,7 +613,7 @@
     {
       "nick": "Jupiter",
       "nick_slug": "Jupiter",
-      "photo": "assets/photos/Jupiter.png",
+      "photo": "assets/photos/Jupiter.jpg",
       "total_end_2025": 1362126786.0,
       "mvp": "Phys",
       "best_rank": "Phys",
@@ -672,7 +672,7 @@
     {
       "nick": "Kaede",
       "nick_slug": "Kaede",
-      "photo": "assets/photos/Kaede.png",
+      "photo": "assets/photos/Kaede.jpg",
       "total_end_2025": 486073534.0,
       "mvp": "Ice",
       "best_rank": "Ice",
@@ -884,7 +884,7 @@
     {
       "nick": "Moroha",
       "nick_slug": "Moroha",
-      "photo": "assets/photos/Moroha.png",
+      "photo": "assets/photos/Moroha.jpg",
       "total_end_2025": 2593717464.0,
       "mvp": "Elec",
       "best_rank": "Elec",
@@ -943,7 +943,7 @@
     {
       "nick": "Mulhollandr",
       "nick_slug": "Mulhollandr",
-      "photo": "assets/photos/Mulhollandr.png",
+      "photo": "assets/photos/Mulhollandr.jpg",
       "total_end_2025": 1296713882.0,
       "mvp": "Elec",
       "best_rank": "Ice",
@@ -978,7 +978,7 @@
     {
       "nick": "Namic",
       "nick_slug": "Namic",
-      "photo": "assets/photos/Namic.png",
+      "photo": "assets/photos/Namic.jpg",
       "total_end_2025": 1871664076.0,
       "mvp": "Force",
       "best_rank": "Force",
@@ -1078,7 +1078,7 @@
     {
       "nick": "OxyMorOn",
       "nick_slug": "OxyMorOn",
-      "photo": "assets/photos/Oxy.png",
+      "photo": "assets/photos/Oxy.jpg",
       "total_end_2025": 891424717.0,
       "mvp": "Phys",
       "best_rank": null,
@@ -1249,7 +1249,7 @@
     {
       "nick": "Skibidi",
       "nick_slug": "Skibidi",
-      "photo": "assets/photos/Skibidi.png",
+      "photo": "assets/photos/Skibidi.jpg",
       "total_end_2025": 613963964.0,
       "mvp": "Phys",
       "best_rank": "Force",
@@ -1308,7 +1308,7 @@
     {
       "nick": "Sunder",
       "nick_slug": "Sunder",
-      "photo": "assets/photos/Sunder.png",
+      "photo": "assets/photos/Sunder.jpg",
       "total_end_2025": 2183767078.0,
       "mvp": "Ice",
       "best_rank": "Ice",
@@ -1721,7 +1721,7 @@
     {
       "nick": "Xiashi",
       "nick_slug": "Xiashi",
-      "photo": "assets/photos/Xiashi.png",
+      "photo": "assets/photos/Xiashi.jpg",
       "total_end_2025": 718653467.0,
       "mvp": "Force",
       "best_rank": "Force",
