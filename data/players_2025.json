@@ -1,0 +1,2057 @@
+{
+  "year": 2025,
+  "elements": [
+    "Phys",
+    "Elec",
+    "Fire",
+    "Ice",
+    "Force",
+    "Light",
+    "Dark"
+  ],
+  "players": [
+    {
+      "nick": "13",
+      "nick_slug": "13",
+      "photo": "assets/photos/13.jpg",
+      "total_end_2025": 1203726980.0,
+      "mvp": "Light",
+      "best_rank": "Light",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 151897996.0,
+          "end": 212140397.0,
+          "growth": 0.39659773391612085
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 57398796.0,
+          "end": 142355088.0,
+          "growth": 1.4801058196412344
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 85209131.0,
+          "end": 104235821.0,
+          "growth": 0.22329402702158774
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 66586769.0,
+          "end": 190052901.0,
+          "growth": 1.8542141908101892
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 103375796.0,
+          "end": 188159722.0,
+          "growth": 0.8201525819448103
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 167356109.0,
+          "end": 251672536.0,
+          "growth": 0.5038144559156785
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 75644444.0,
+          "end": 115110515.0,
+          "growth": 0.5217312589408416
+        }
+      }
+    },
+    {
+      "nick": "Bario no Aza",
+      "nick_slug": "Bario_no_Aza",
+      "photo": "assets/photos/Bario_no_Aza.jpg",
+      "total_end_2025": 2630982729.0,
+      "mvp": "Elec",
+      "best_rank": "Elec",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": null,
+          "end": 562126302.0,
+          "growth": null
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": null,
+          "end": 622764522.0,
+          "growth": null
+        },
+        "Fire": {},
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": null,
+          "end": 405210167.0,
+          "growth": null
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": null,
+          "end": 299617228.0,
+          "growth": null
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": null,
+          "end": 451807396.0,
+          "growth": null
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": null,
+          "end": 289457114.0,
+          "growth": null
+        }
+      }
+    },
+    {
+      "nick": "Daedalus",
+      "nick_slug": "Daedalus",
+      "photo": "assets/photos/Daedalus.jpg",
+      "total_end_2025": 1987255914.0,
+      "mvp": "Elec",
+      "best_rank": "Light",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 226647034.0,
+          "end": 301219038.0,
+          "growth": 0.3290226334927462
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 102139979.0,
+          "end": 360043728.0,
+          "growth": 2.5250029569714325
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 148970315.0,
+          "end": 172578151.0,
+          "growth": 0.15847342472223414
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 88549252.0,
+          "end": 313443324.0,
+          "growth": 2.539762526734839
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 88472467.0,
+          "end": 308562058.0,
+          "growth": 2.4876619638062087
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 134224546.0,
+          "end": 349402110.0,
+          "growth": 1.6031163480336899
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 89892735.0,
+          "end": 182007505.0,
+          "growth": 1.0247187383941538
+        }
+      }
+    },
+    {
+      "nick": "Drain",
+      "nick_slug": "Drain",
+      "photo": "assets/photos/Drain.jpg",
+      "total_end_2025": 1924485749.0,
+      "mvp": "Phys",
+      "best_rank": "Light",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 185075584.0,
+          "end": 384160772.0,
+          "growth": 1.0756966623971316
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 143006653.0,
+          "end": 309684674.0,
+          "growth": 1.1655263409318448
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 146897073.0,
+          "end": 210879257.0,
+          "growth": 0.43555792292743645
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 73450024.0,
+          "end": 154583940.0,
+          "growth": 1.1046138800444778
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 77103528.0,
+          "end": 217918050.0,
+          "growth": 1.826304523964195
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 217538122.0,
+          "end": 341756904.0,
+          "growth": 0.571020751939745
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 97325970.0,
+          "end": 305502152.0,
+          "growth": 2.1389582040641364
+        }
+      }
+    },
+    {
+      "nick": "Dzaki",
+      "nick_slug": "Dzaki",
+      "photo": "assets/photos/Dzaki.jpg",
+      "total_end_2025": 161357819.0,
+      "mvp": "Dark",
+      "best_rank": "Dark",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 47951082.0,
+          "end": 40850298.0,
+          "growth": -0.14808391602091486
+        },
+        "Elec": {},
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 46973607.0,
+          "end": 32866848.0,
+          "growth": -0.3003124499253379
+        },
+        "Ice": {},
+        "Force": {},
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 31235785.0,
+          "end": null,
+          "growth": null
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 15886191.0,
+          "end": 87640673.0,
+          "growth": 4.516783286818092
+        }
+      }
+    },
+    {
+      "nick": "EL_Mouze",
+      "nick_slug": "EL_Mouze",
+      "photo": "assets/photos/EL_Mouze.jpg",
+      "total_end_2025": 210716420.0,
+      "mvp": "Light",
+      "best_rank": "Light",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 70712464.0,
+          "end": 69472637.0,
+          "growth": -0.01753335875836548
+        },
+        "Elec": {},
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 37576910.0,
+          "end": 38222288.0,
+          "growth": 0.01717485551632647
+        },
+        "Ice": {},
+        "Force": {},
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 81754230.0,
+          "end": 87253027.0,
+          "growth": 0.06726009161850088
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 26220512.0,
+          "end": 15768468.0,
+          "growth": -0.3986208964950799
+        }
+      }
+    },
+    {
+      "nick": "Frost",
+      "nick_slug": "Frost",
+      "photo": "assets/photos/Frost.jpg",
+      "total_end_2025": 509486360.0,
+      "mvp": "Fire",
+      "best_rank": null,
+      "elements": {
+        "Phys": {},
+        "Elec": {},
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 424998424.0,
+          "end": 509486360.0,
+          "growth": 0.19879588071131304
+        },
+        "Ice": {},
+        "Force": {},
+        "Light": {},
+        "Dark": {}
+      }
+    },
+    {
+      "nick": "Hans",
+      "nick_slug": "Hans",
+      "photo": "assets/photos/Hans.jpg",
+      "total_end_2025": 1469587689.0,
+      "mvp": "Light",
+      "best_rank": "Light",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 138311603.0,
+          "end": 274537126.0,
+          "growth": 0.9849175343589938
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 113427983.0,
+          "end": 191719324.0,
+          "growth": 0.6902295088858277
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 111571272.0,
+          "end": 126333481.0,
+          "growth": 0.13231191807152642
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 80005513.0,
+          "end": 131385428.0,
+          "growth": 0.6422046815698814
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 99894433.0,
+          "end": 184476530.0,
+          "growth": 0.8467148214355449
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 100421096.0,
+          "end": 365271698.0,
+          "growth": 2.6374000339530252
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 140768293.0,
+          "end": 195864102.0,
+          "growth": 0.3913936002619567
+        }
+      }
+    },
+    {
+      "nick": "Harmless",
+      "nick_slug": "Harmless",
+      "photo": "assets/photos/Harmless.jpg",
+      "total_end_2025": 425847449.0,
+      "mvp": "Phys",
+      "best_rank": "Phys",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 66346221.0,
+          "end": 173851511.0,
+          "growth": 1.6203679483116304
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 37468068.0,
+          "end": 48264334.0,
+          "growth": 0.28814578856854856
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 39286830.0,
+          "end": 27785828.0,
+          "growth": -0.2927444642390338
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 21371788.0,
+          "end": 16761224.0,
+          "growth": -0.21573131831552883
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 61820853.0,
+          "end": 74587839.0,
+          "growth": 0.2065158499187969
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 30586796.0,
+          "end": 40781092.0,
+          "growth": 0.3332907441498614
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 29964564.0,
+          "end": 43815621.0,
+          "growth": 0.4622479072280177
+        }
+      }
+    },
+    {
+      "nick": "Jade",
+      "nick_slug": "Jade",
+      "photo": "assets/photos/Jade.jpg",
+      "total_end_2025": 361691922.0,
+      "mvp": "Elec",
+      "best_rank": "Light",
+      "elements": {
+        "Phys": {},
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": null,
+          "end": 87948243.0,
+          "growth": null
+        },
+        "Fire": {},
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": null,
+          "end": 45316060.0,
+          "growth": null
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": null,
+          "end": 72133673.0,
+          "growth": null
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": null,
+          "end": 87540552.0,
+          "growth": null
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": null,
+          "end": 68753394.0,
+          "growth": null
+        }
+      }
+    },
+    {
+      "nick": "Jon Slow",
+      "nick_slug": "Jon_Slow",
+      "photo": "assets/photos/Jon_Slow.jpg",
+      "total_end_2025": 5860394804.0,
+      "mvp": "Elec",
+      "best_rank": "Ice",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 581810544.0,
+          "end": 1031441476.0,
+          "growth": 0.7728133094817202
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 231840085.0,
+          "end": 1140690208.0,
+          "growth": 3.9201595487682814
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 474697395.0,
+          "end": 640933204.0,
+          "growth": 0.35019321940875625
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 238013260.0,
+          "end": 865325816.0,
+          "growth": 2.6356202003199316
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 317020016.0,
+          "end": 834316152.0,
+          "growth": 1.6317459778312546
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 297094676.0,
+          "end": 599584680.0,
+          "growth": 1.0181602985036324
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 270981950.0,
+          "end": 748103268.0,
+          "growth": 1.760712541923918
+        }
+      }
+    },
+    {
+      "nick": "JT",
+      "nick_slug": "JT",
+      "photo": "assets/photos/JT.jpg",
+      "total_end_2025": 317947169.0,
+      "mvp": "Phys",
+      "best_rank": null,
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 63224659.0,
+          "end": 96306042.0,
+          "growth": 0.5232354515348197
+        },
+        "Elec": {},
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 54075411.0,
+          "end": 71004827.0,
+          "growth": 0.31307050074940723
+        },
+        "Ice": {},
+        "Force": {},
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 43399216.0,
+          "end": 61265956.0,
+          "growth": 0.4116834737291106
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 32189113.0,
+          "end": 89370344.0,
+          "growth": 1.7764152432532079
+        }
+      }
+    },
+    {
+      "nick": "Jupiter",
+      "nick_slug": "Jupiter",
+      "photo": "assets/photos/Jupiter.jpg",
+      "total_end_2025": 1362126786.0,
+      "mvp": "Phys",
+      "best_rank": "Phys",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 136314083.0,
+          "end": 430205720.0,
+          "growth": 2.155988805646736
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 40765559.0,
+          "end": 136880188.0,
+          "growth": 2.3577409793399373
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 77118786.0,
+          "end": 116523253.0,
+          "growth": 0.5109580822498943
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 51083057.0,
+          "end": 176422770.0,
+          "growth": 2.453645501286268
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 97209310.0,
+          "end": 262155527.0,
+          "growth": 1.6968150169978573
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 83947468.0,
+          "end": 160026810.0,
+          "growth": 0.906273218389386
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 55747387.0,
+          "end": 79912518.0,
+          "growth": 0.43347558155506016
+        }
+      }
+    },
+    {
+      "nick": "Kaede",
+      "nick_slug": "Kaede",
+      "photo": "assets/photos/Kaede.jpg",
+      "total_end_2025": 486073534.0,
+      "mvp": "Ice",
+      "best_rank": "Ice",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 18855986.0,
+          "end": 77155584.0,
+          "growth": 3.0918350278792106
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 8830473.0,
+          "end": 29528526.0,
+          "growth": 2.343934803945383
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 27755603.0,
+          "end": 64469401.0,
+          "growth": 1.322752670875138
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 18890422.0,
+          "end": 93269776.0,
+          "growth": 3.937410927082518
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 13444678.0,
+          "end": 83801675.0,
+          "growth": 5.233074157670418
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 21050601.0,
+          "end": 80281163.0,
+          "growth": 2.8137230856259166
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 10946972.0,
+          "end": 57567409.0,
+          "growth": 4.258751826532488
+        }
+      }
+    },
+    {
+      "nick": "KaShiO",
+      "nick_slug": "KaShiO",
+      "photo": "assets/photos/KaShiO.jpg",
+      "total_end_2025": 4682664502.0,
+      "mvp": "Dark",
+      "best_rank": "Dark",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 326158677.0,
+          "end": 737710134.0,
+          "growth": 1.2618136079819822
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 137089656.0,
+          "end": 624263134.0,
+          "growth": 3.553685173737689
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 389276326.0,
+          "end": 502538322.0,
+          "growth": 0.2909552634855066
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 111239158.0,
+          "end": 629329294.0,
+          "growth": 4.657443883205229
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 121971589.0,
+          "end": 636499624.0,
+          "growth": 4.218425284268454
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 220323514.0,
+          "end": 577525508.0,
+          "growth": 1.6212613330050645
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 149499617.0,
+          "end": 974798486.0,
+          "growth": 5.5204079151587395
+        }
+      }
+    },
+    {
+      "nick": "Knop",
+      "nick_slug": "Knop",
+      "photo": "assets/photos/Knop.jpg",
+      "total_end_2025": 381700000.0,
+      "mvp": "Phys",
+      "best_rank": null,
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 111500000.0,
+          "end": 184400000.0,
+          "growth": 0.6538116591928251
+        },
+        "Elec": {},
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 93650000.0,
+          "end": 84100000.0,
+          "growth": -0.10197544046983453
+        },
+        "Ice": {},
+        "Force": {},
+        "Light": {},
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 47500000.0,
+          "end": 113200000.0,
+          "growth": 1.3831578947368421
+        }
+      }
+    },
+    {
+      "nick": "Miriel",
+      "nick_slug": "Miriel",
+      "photo": "assets/photos/Miriel.jpg",
+      "total_end_2025": 1302684562.0,
+      "mvp": "Elec",
+      "best_rank": "Fire",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 87438409.0,
+          "end": 225922140.0,
+          "growth": 1.5837860338927254
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 62146735.0,
+          "end": 236330047.0,
+          "growth": 2.802774948675904
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 95201355.0,
+          "end": 193360791.0,
+          "growth": 1.031071837160301
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 43642282.0,
+          "end": 209877117.0,
+          "growth": 3.8090316862899147
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 67985870.0,
+          "end": 190211853.0,
+          "growth": 1.7978145017486722
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 75281238.0,
+          "end": 118539204.0,
+          "growth": 0.5746181538619224
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 51882837.0,
+          "end": 128443410.0,
+          "growth": 1.4756435350672903
+        }
+      }
+    },
+    {
+      "nick": "Missing results",
+      "nick_slug": "Missing_results",
+      "photo": "assets/photos/Missing_results.jpg",
+      "total_end_2025": 46905163.60581,
+      "mvp": "Light",
+      "best_rank": null,
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 117597712.0,
+          "end": -44359.0,
+          "growth": -1.0003772097198627
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 26105542.0,
+          "end": 0.0,
+          "growth": -1.0
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 2685.0,
+          "end": 19362.0,
+          "growth": 6.211173184357542
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 131111008.0,
+          "end": 0.0,
+          "growth": -1.0
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 142963687.0,
+          "end": 0.0,
+          "growth": -1.0
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 356155260.0,
+          "end": 46952072.0,
+          "growth": -0.8681696516288991
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 64760643.0,
+          "end": -21911.39419,
+          "growth": -1.0003383442963962
+        }
+      }
+    },
+    {
+      "nick": "Moroha",
+      "nick_slug": "Moroha",
+      "photo": "assets/photos/Moroha.jpg",
+      "total_end_2025": 2593717464.0,
+      "mvp": "Elec",
+      "best_rank": "Elec",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": null,
+          "end": 475411806.0,
+          "growth": null
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": null,
+          "end": 599792588.0,
+          "growth": null
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": null,
+          "end": 135075256.0,
+          "growth": null
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": null,
+          "end": 356512807.0,
+          "growth": null
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": null,
+          "end": 273232848.0,
+          "growth": null
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": null,
+          "end": 327495623.0,
+          "growth": null
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": null,
+          "end": 426196536.0,
+          "growth": null
+        }
+      }
+    },
+    {
+      "nick": "Mulhollandr",
+      "nick_slug": "Mulhollandr",
+      "photo": "assets/photos/Mulhollandr.jpg",
+      "total_end_2025": 1296713882.0,
+      "mvp": "Elec",
+      "best_rank": "Ice",
+      "elements": {
+        "Phys": {},
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": null,
+          "end": 446294996.0,
+          "growth": null
+        },
+        "Fire": {},
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": null,
+          "end": 418599060.0,
+          "growth": null
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": null,
+          "end": 431819826.0,
+          "growth": null
+        },
+        "Light": {},
+        "Dark": {}
+      }
+    },
+    {
+      "nick": "Namic",
+      "nick_slug": "Namic",
+      "photo": "assets/photos/Namic.jpg",
+      "total_end_2025": 1871664076.0,
+      "mvp": "Force",
+      "best_rank": "Force",
+      "elements": {
+        "Phys": {},
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": null,
+          "end": 525614614.0,
+          "growth": null
+        },
+        "Fire": {},
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": null,
+          "end": 225964658.0,
+          "growth": null
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": null,
+          "end": 623791740.0,
+          "growth": null
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": null,
+          "end": 496293064.0,
+          "growth": null
+        },
+        "Dark": {}
+      }
+    },
+    {
+      "nick": "Nrike",
+      "nick_slug": "Nrike",
+      "photo": "assets/photos/Nrike.jpg",
+      "total_end_2025": 1104900938.0,
+      "mvp": "Phys",
+      "best_rank": "Phys",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 127779855.0,
+          "end": 287497763.0,
+          "growth": 1.249945916748771
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 109715120.0,
+          "end": 171527045.0,
+          "growth": 0.563385657327814
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 130101627.0,
+          "end": 128036643.0,
+          "growth": -0.015872084366785
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 85854195.0,
+          "end": 159386917.0,
+          "growth": 0.8564837396704961
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 85692700.0,
+          "end": 119732852.0,
+          "growth": 0.39723514371702606
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 101391590.0,
+          "end": 109635904.0,
+          "growth": 0.08131161568725775
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 88400429.0,
+          "end": 129083814.0,
+          "growth": 0.46021705392402557
+        }
+      }
+    },
+    {
+      "nick": "OxyMorOn",
+      "nick_slug": "OxyMorOn",
+      "photo": "assets/photos/OxyMorOn.jpg",
+      "total_end_2025": 891424717.0,
+      "mvp": "Phys",
+      "best_rank": null,
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 151333929.0,
+          "end": 213551016.0,
+          "growth": 0.4111245073138887
+        },
+        "Elec": {},
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 48010606.0,
+          "end": 50942148.0,
+          "growth": 0.06106029988457129
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 45726596.0,
+          "end": 182164141.0,
+          "growth": 2.983767805502076
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": null,
+          "end": 172586349.0,
+          "growth": null
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 83436381.0,
+          "end": 146567676.0,
+          "growth": 0.7566399002852244
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": null,
+          "end": 125613387.0,
+          "growth": null
+        }
+      }
+    },
+    {
+      "nick": "Oxymoron",
+      "nick_slug": "Oxymoron",
+      "photo": "assets/photos/Oxymoron.jpg",
+      "total_end_2025": 165581117.0,
+      "mvp": "Elec",
+      "best_rank": "Ice",
+      "elements": {
+        "Phys": {},
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": null,
+          "end": 165581117.0,
+          "growth": null
+        },
+        "Fire": {},
+        "Ice": {},
+        "Force": {},
+        "Light": {},
+        "Dark": {}
+      }
+    },
+    {
+      "nick": "PSET",
+      "nick_slug": "PSET",
+      "photo": "assets/photos/PSET.jpg",
+      "total_end_2025": 5261211864.0,
+      "mvp": "Elec",
+      "best_rank": "Elec",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 603096130.0,
+          "end": 1038541356.0,
+          "growth": 0.7220162828768275
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 282269446.0,
+          "end": 1119025536.0,
+          "growth": 2.964387757362871
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 476426246.0,
+          "end": 573960628.0,
+          "growth": 0.20472084151300085
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 203101276.0,
+          "end": 704153130.0,
+          "growth": 2.4670049537256475
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 310002154.0,
+          "end": 607529836.0,
+          "growth": 0.9597600473447032
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 262228608.0,
+          "end": 395816050.0,
+          "growth": 0.5094312288001772
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 285888574.0,
+          "end": 822185328.0,
+          "growth": 1.8758943265777388
+        }
+      }
+    },
+    {
+      "nick": "Raven",
+      "nick_slug": "Raven",
+      "photo": "assets/photos/Raven.jpg",
+      "total_end_2025": 1501858141.0,
+      "mvp": "Phys",
+      "best_rank": "Ice",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 244548424.0,
+          "end": 358629451.0,
+          "growth": 0.4664966763392431
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 62512204.0,
+          "end": 248986445.0,
+          "growth": 2.9830053824370037
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 88511763.0,
+          "end": 71129477.0,
+          "growth": -0.19638390888225787
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 62830853.0,
+          "end": 260067029.0,
+          "growth": 3.1391612015835593
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 92099483.0,
+          "end": 166765963.0,
+          "growth": 0.8107155172630014
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 164082243.0,
+          "end": 274406608.0,
+          "growth": 0.672372360243759
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 51026516.0,
+          "end": 121873168.0,
+          "growth": 1.3884281654659705
+        }
+      }
+    },
+    {
+      "nick": "Saints",
+      "nick_slug": "Saints",
+      "photo": "assets/photos/Saints.jpg",
+      "total_end_2025": 16871146.0,
+      "mvp": "Fire",
+      "best_rank": null,
+      "elements": {
+        "Phys": {},
+        "Elec": {},
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 46096157.0,
+          "end": 16871146.0,
+          "growth": -0.6340010296303009
+        },
+        "Ice": {},
+        "Force": {},
+        "Light": {},
+        "Dark": {}
+      }
+    },
+    {
+      "nick": "Share of missing results",
+      "nick_slug": "Share_of_missing_results",
+      "photo": "assets/photos/Share_of_missing_results.jpg",
+      "total_end_2025": 0.007057028988138999,
+      "mvp": "Light",
+      "best_rank": null,
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 0.02683348445,
+          "end": -4.836340957e-06,
+          "growth": -1.0001802352939295
+        },
+        "Elec": {},
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 6.681429232714099e-07,
+          "end": 3.775819812e-06,
+          "growth": 4.65121575113384
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 0.06687366768241551,
+          "end": 0.0,
+          "growth": -1.0
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 0.05857422077042605,
+          "end": 0.0,
+          "growth": -1.0
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 0.1138178476,
+          "end": 0.007061483194,
+          "growth": -0.9379580325678203
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 0.03315205188797067,
+          "end": -3.393684716e-06,
+          "growth": -1.0001023672600255
+        }
+      }
+    },
+    {
+      "nick": "Shared results",
+      "nick_slug": "Shared_results",
+      "photo": "assets/photos/Shared_results.jpg",
+      "total_end_2025": 50957403278.0,
+      "mvp": "Phys",
+      "best_rank": null,
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 4264901036.0,
+          "end": 9172061053.0,
+          "growth": 1.1505917665096321
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 2139952334.0,
+          "end": 8884557995.0,
+          "growth": 3.15175508998043
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 4018598585.0,
+          "end": 5127873643.0,
+          "growth": 0.2760352980117322
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 1829466489.0,
+          "end": 7234311971.0,
+          "growth": 2.954328769888717
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 2297763396.0,
+          "end": 7479970228.0,
+          "growth": 2.2553265671397265
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 2773013562.0,
+          "end": 6602086198.0,
+          "growth": 1.3808344425255283
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 1888682336.0,
+          "end": 6456542190.0,
+          "growth": 2.418543217635091
+        }
+      }
+    },
+    {
+      "nick": "Skibidi",
+      "nick_slug": "Skibidi",
+      "photo": "assets/photos/Skibidi.jpg",
+      "total_end_2025": 613963964.0,
+      "mvp": "Phys",
+      "best_rank": "Force",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 28303965.0,
+          "end": 127789338.0,
+          "growth": 3.5148917474989814
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 3098855.0,
+          "end": 71571553.0,
+          "growth": 22.096128408718705
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 18957866.0,
+          "end": 57747429.0,
+          "growth": 2.046093320841069
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 7584038.0,
+          "end": 80520488.0,
+          "growth": 9.617099756092994
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 9358599.0,
+          "end": 122614830.0,
+          "growth": 12.10183607610498
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 14796495.0,
+          "end": 105107658.0,
+          "growth": 6.103551077468008
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 8765695.0,
+          "end": 48612668.0,
+          "growth": 4.545785930265655
+        }
+      }
+    },
+    {
+      "nick": "Sunder",
+      "nick_slug": "Sunder",
+      "photo": "assets/photos/Sunder.jpg",
+      "total_end_2025": 2183767078.0,
+      "mvp": "Ice",
+      "best_rank": "Ice",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 258824299.0,
+          "end": 423792859.0,
+          "growth": 0.6373766320912551
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 99574744.0,
+          "end": 342738162.0,
+          "growth": 2.4420190123712495
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 236336398.0,
+          "end": 287461070.0,
+          "growth": 0.21632161796762261
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 137242441.0,
+          "end": 427193348.0,
+          "growth": 2.1126912701880607
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 171020179.0,
+          "end": 356913409.0,
+          "growth": 1.0869666438601961
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 184532796.0,
+          "end": 196246324.0,
+          "growth": 0.06347667327383899
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 71323335.0,
+          "end": 149421906.0,
+          "growth": 1.094993258517707
+        }
+      }
+    },
+    {
+      "nick": "Surya",
+      "nick_slug": "Surya",
+      "photo": "assets/photos/Surya.jpg",
+      "total_end_2025": 845768294.0,
+      "mvp": "Dark",
+      "best_rank": "Dark",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 88296726.0,
+          "end": 83186595.0,
+          "growth": -0.05787452413580996
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 69883078.0,
+          "end": 94251546.0,
+          "growth": 0.3487034157253348
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 88331138.0,
+          "end": 121827311.0,
+          "growth": 0.37921138296667256
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 39006301.0,
+          "end": 31728863.0,
+          "growth": -0.18657083121006524
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 68743831.0,
+          "end": 120325444.0,
+          "growth": 0.7503453364418984
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 97595052.0,
+          "end": 157001377.0,
+          "growth": 0.6087022219118239
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 39054856.0,
+          "end": 237447158.0,
+          "growth": 5.079836986212419
+        }
+      }
+    },
+    {
+      "nick": "Svens",
+      "nick_slug": "Svens",
+      "photo": "assets/photos/Svens.jpg",
+      "total_end_2025": 786805772.0,
+      "mvp": "Light",
+      "best_rank": "Light",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 56128776.0,
+          "end": 117588978.0,
+          "growth": 1.0949856095205068
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": null,
+          "end": 123180002.0,
+          "growth": null
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 54548538.0,
+          "end": 60577157.0,
+          "growth": 0.11051843405958928
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 40139156.0,
+          "end": 104527527.0,
+          "growth": 1.6041286717638008
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 27375156.0,
+          "end": 126358388.0,
+          "growth": 3.615805221347414
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 35851961.0,
+          "end": 160714575.0,
+          "growth": 3.48272759752249
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": null,
+          "end": 93859145.0,
+          "growth": null
+        }
+      }
+    },
+    {
+      "nick": "Tamaki",
+      "nick_slug": "Tamaki",
+      "photo": "assets/photos/Tamaki.jpg",
+      "total_end_2025": 180525717.0,
+      "mvp": "Dark",
+      "best_rank": "Dark",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 6702155.0,
+          "end": 14127556.0,
+          "growth": 1.1079124550237944
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 1829537.0,
+          "end": 22184481.0,
+          "growth": 11.12573509035346
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 12085424.0,
+          "end": 17838001.0,
+          "growth": 0.4759929812971395
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 5300524.0,
+          "end": 13922068.0,
+          "growth": 1.6265456019065283
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 3524809.0,
+          "end": 31588292.0,
+          "growth": 7.961703173136474
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 3267032.0,
+          "end": 31655823.0,
+          "growth": 8.689474422044228
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 5444390.0,
+          "end": 49209496.0,
+          "growth": 8.038569242835285
+        }
+      }
+    },
+    {
+      "nick": "Tanin",
+      "nick_slug": "Tanin",
+      "photo": "assets/photos/Tanin.jpg",
+      "total_end_2025": 3192261824.0,
+      "mvp": "Ice",
+      "best_rank": "Ice",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 134156531.0,
+          "end": 463402326.0,
+          "growth": 2.4541913281881147
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 117860270.0,
+          "end": 510493955.0,
+          "growth": 3.331348935480973
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 244673789.0,
+          "end": 392269357.0,
+          "growth": 0.603234079969228
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 98649794.0,
+          "end": 608565412.0,
+          "growth": 5.1689476209144445
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 124230995.0,
+          "end": 529385724.0,
+          "growth": 3.261301489213702
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 136676017.0,
+          "end": 294105248.0,
+          "growth": 1.1518423967534845
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 124358099.0,
+          "end": 394039802.0,
+          "growth": 2.1685897836054893
+        }
+      }
+    },
+    {
+      "nick": "Techno",
+      "nick_slug": "Techno",
+      "photo": "assets/photos/Techno.jpg",
+      "total_end_2025": 1299627619.0,
+      "mvp": "Phys",
+      "best_rank": "Phys",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 203239496.0,
+          "end": 347801183.0,
+          "growth": 0.7112873720174941
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 52914042.0,
+          "end": 259600750.0,
+          "growth": 3.906084286662508
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 208494809.0,
+          "end": 140629172.0,
+          "growth": -0.325502765874617
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 42802163.0,
+          "end": 167677117.0,
+          "growth": 2.9174916697551008
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 82184909.0,
+          "end": 189861951.0,
+          "growth": 1.3101802181225266
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 88142057.0,
+          "end": 132900732.0,
+          "growth": 0.5078015708210668
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 38983021.0,
+          "end": 61156714.0,
+          "growth": 0.5688038646363502
+        }
+      }
+    },
+    {
+      "nick": "TOP-3 share",
+      "nick_slug": "TOP-3_share",
+      "photo": "assets/photos/TOP-3_share.jpg",
+      "total_end_2025": 2.1946565285,
+      "mvp": "Dark",
+      "best_rank": null,
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 0.34479538680748983,
+          "end": 0.3061151173,
+          "growth": -0.11218325704887178
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 0.3033696335083523,
+          "end": 0.32460578,
+          "growth": 0.07000089707746926
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 0.2975655830616905,
+          "end": 0.3362746045,
+          "growth": 0.13008568074314053
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 0.2918658124331211,
+          "end": 0.3039415841,
+          "growth": 0.04137439587805769
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 0.314,
+          "end": 0.2778547974,
+          "growth": -0.1151121101910827
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 0.2491545973865644,
+          "end": 0.2516759844,
+          "growth": 0.010119769170960469
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 0.3611789550986428,
+          "end": 0.3941886608,
+          "growth": 0.09139432194309838
+        }
+      }
+    },
+    {
+      "nick": "Tornberry",
+      "nick_slug": "Tornberry",
+      "photo": "assets/photos/Tornberry.jpg",
+      "total_end_2025": 1153355810.0,
+      "mvp": "Phys",
+      "best_rank": "Phys",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 112046408.0,
+          "end": 325241649.0,
+          "growth": 1.9027405233731365
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 40790654.0,
+          "end": 146899409.0,
+          "growth": 2.601300655782572
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 56265786.0,
+          "end": 90741016.0,
+          "growth": 0.6127210237496727
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 50876722.0,
+          "end": 115379892.0,
+          "growth": 1.267832664219208
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 53972458.0,
+          "end": 90934855.0,
+          "growth": 0.6848381261420409
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 59174193.0,
+          "end": 140030900.0,
+          "growth": 1.3664184148654126
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 49998415.0,
+          "end": 244128089.0,
+          "growth": 3.882716562115019
+        }
+      }
+    },
+    {
+      "nick": "Xiashi",
+      "nick_slug": "Xiashi",
+      "photo": "assets/photos/Xiashi.jpg",
+      "total_end_2025": 718653467.0,
+      "mvp": "Force",
+      "best_rank": "Force",
+      "elements": {
+        "Phys": {
+          "start_label": "Apr 2025",
+          "end_label": "Sep 2025",
+          "start": 38200000.0,
+          "end": 94000000.0,
+          "growth": 1.4607329842931938
+        },
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": 31300000.0,
+          "end": 106343780.0,
+          "growth": 2.397564856230032
+        },
+        "Fire": {
+          "start_label": "May 2025",
+          "end_label": "Aug 2025",
+          "start": 56500000.0,
+          "end": 87450000.0,
+          "growth": 0.547787610619469
+        },
+        "Ice": {
+          "start_label": "Mar 2025",
+          "end_label": "Dec 2025",
+          "start": 22107758.0,
+          "end": 146971697.0,
+          "growth": 5.647969323709804
+        },
+        "Force": {
+          "start_label": "Feb 2025",
+          "end_label": "Dec 2025",
+          "start": 18190919.0,
+          "end": 164087990.0,
+          "growth": 8.020324371737349
+        },
+        "Light": {
+          "start_label": "Mar 2025",
+          "end_label": "Oct 2025",
+          "start": 37625740.0,
+          "end": 61400000.0,
+          "growth": 0.6318615926224973
+        },
+        "Dark": {
+          "start_label": "Jan 2025",
+          "end_label": "Oct 2025",
+          "start": 21000000.0,
+          "end": 58400000.0,
+          "growth": 1.7809523809523808
+        }
+      }
+    }
+  ]
+}

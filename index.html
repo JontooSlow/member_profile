@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Slowteam — Player Cards (2025)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap head">
+      <div>
+        <h1>Slowteam — Player Cards (2025)</h1>
+        <div class="sub">
+          Photos: <code>assets/photos/&lt;Nick&gt;.jpg</code> (e.g., <code>Jon_Slow.jpg</code>, <code>PSET.jpg</code>).<br/>
+          Absolute bars are scaled <b>within each player</b> (100% = that player’s best element). The best element is highlighted.
+        </div>
+      </div>
+
+      <div class="controls">
+        <input id="q" placeholder="Search by nickname…" />
+        <select id="filterMvp">
+          <option value="">Filter by MVP element (all)</option>
+        </select>
+        <select id="sortBy">
+          <option value="total_desc">Sort: Total 2025 ↓</option>
+          <option value="total_asc">Sort: Total 2025 ↑</option>
+          <option value="name_asc">Sort: Nick A→Z</option>
+          <option value="name_desc">Sort: Nick Z→A</option>
+        </select>
+        <select id="viewMode">
+          <option value="end">Data: End-2025</option>
+          <option value="growth">Data: Growth (if start exists)</option>
+        </select>
+        <select id="valueMode">
+          <option value="absolute">Values: Absolute</option>
+          <option value="relative">Values: Relative (from sheet)</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <div id="stats" class="metaLine"></div>
+      <div id="grid" class="grid"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

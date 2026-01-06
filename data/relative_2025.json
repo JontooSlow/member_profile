@@ -1,0 +1,282 @@
+{
+  "year": 2025,
+  "elements": [
+    "Phys",
+    "Light",
+    "Dark",
+    "Fire",
+    "Ice",
+    "Elec",
+    "Force"
+  ],
+  "relative_percent": {
+    "Slowteam (to top-3%)": {
+      "Phys": 76,
+      "Light": 68,
+      "Dark": 83,
+      "Fire": 85,
+      "Ice": 100,
+      "Elec": 86,
+      "Force": 90
+    },
+    "Slowteam (to top-1)": {
+      "Phys": 77,
+      "Light": 100,
+      "Dark": 72,
+      "Fire": 79,
+      "Ice": 76,
+      "Elec": 76,
+      "Force": 86
+    },
+    "Tornberry": {
+      "Phys": 100,
+      "Light": 59,
+      "Dark": 94,
+      "Fire": 53,
+      "Ice": 53,
+      "Elec": 49,
+      "Force": 38
+    },
+    "Jon Slow": {
+      "Phys": 81,
+      "Light": 64,
+      "Dark": 74,
+      "Fire": 95,
+      "Ice": 100,
+      "Elec": 97,
+      "Force": 89
+    },
+    "Jupiter": {
+      "Phys": 100,
+      "Light": 51,
+      "Dark": 23,
+      "Fire": 51,
+      "Ice": 61,
+      "Elec": 35,
+      "Force": 84
+    },
+    "Hans": {
+      "Phys": 55,
+      "Light": 100,
+      "Dark": 49,
+      "Fire": 48,
+      "Ice": 39,
+      "Elec": 42,
+      "Force": 51
+    },
+    "PSET": {
+      "Phys": 85,
+      "Light": 45,
+      "Dark": 85,
+      "Fire": 90,
+      "Ice": 86,
+      "Elec": 100,
+      "Force": 69
+    },
+    "Miriel": {
+      "Phys": 62,
+      "Light": 44,
+      "Dark": 44,
+      "Fire": 100,
+      "Ice": 85,
+      "Elec": 70
+    },
+    "Xiashi": {
+      "Phys": 42,
+      "Light": 37,
+      "Dark": 33,
+      "Fire": 74,
+      "Ice": 97,
+      "Elec": 51,
+      "Force": 100
+    },
+    "13": {
+      "Phys": 62,
+      "Light": 100,
+      "Dark": 42,
+      "Fire": 57,
+      "Ice": 82,
+      "Elec": 45,
+      "Force": 75
+    },
+    "Tanin": {
+      "Phys": 51,
+      "Light": 45,
+      "Dark": 55,
+      "Fire": 83,
+      "Ice": 100,
+      "Elec": 62,
+      "Force": 81
+    },
+    "Harmless": {
+      "Phys": 100,
+      "Light": 32,
+      "Dark": 32,
+      "Fire": 30,
+      "Ice": 14,
+      "Elec": 30,
+      "Force": 59
+    },
+    "Daedalus": {
+      "Phys": 63,
+      "Light": 100,
+      "Dark": 48,
+      "Fire": 68,
+      "Ice": 97,
+      "Elec": 82,
+      "Force": 88
+    },
+    "Nrike": {
+      "Phys": 100,
+      "Light": 52,
+      "Dark": 57,
+      "Fire": 84,
+      "Ice": 82,
+      "Elec": 65,
+      "Force": 57
+    },
+    "Kaede": {
+      "Phys": 56,
+      "Light": 80,
+      "Dark": 52,
+      "Fire": 89,
+      "Ice": 100,
+      "Elec": 23,
+      "Force": 83
+    },
+    "Surya": {
+      "Phys": 28,
+      "Light": 72,
+      "Dark": 100,
+      "Fire": 771,
+      "Ice": 16,
+      "Elec": 34,
+      "Force": 55
+    },
+    "Raven": {
+      "Phys": 93,
+      "Light": 98,
+      "Dark": 40,
+      "Fire": 35,
+      "Ice": 100,
+      "Elec": 70,
+      "Force": 59
+    },
+    "Drain": {
+      "Phys": 82,
+      "Light": 100,
+      "Dark": 82,
+      "Fire": 85,
+      "Ice": 49,
+      "Elec": 72,
+      "Force": 64
+    },
+    "Skibidi": {
+      "Phys": 76,
+      "Light": 86,
+      "Dark": 36,
+      "Fire": 65,
+      "Elec": 46,
+      "Force": 100
+    },
+    "Tamaki": {
+      "Phys": 23,
+      "Light": 70,
+      "Dark": 100,
+      "Fire": 55,
+      "Ice": 33,
+      "Elec": 39,
+      "Force": 70
+    },
+    "Techno": {
+      "Phys": 100,
+      "Light": 52,
+      "Dark": 22,
+      "Fire": 771,
+      "Ice": 71,
+      "Elec": 81,
+      "Force": 75
+    },
+    "Sunder": {
+      "Phys": 67,
+      "Light": 43,
+      "Dark": 30,
+      "Fire": 86,
+      "Ice": 100,
+      "Elec": 59,
+      "Force": 77
+    },
+    "KaShiO": {
+      "Phys": 60,
+      "Light": 64,
+      "Dark": 100,
+      "Fire": 78,
+      "Ice": 76,
+      "Elec": 55,
+      "Force": 71
+    },
+    "Svens": {
+      "Phys": 53,
+      "Light": 100,
+      "Dark": 54,
+      "Fire": 52,
+      "Ice": 70,
+      "Elec": 61,
+      "Force": 79
+    },
+    "Oxymoron": {
+      "Phys": 79,
+      "Light": 74,
+      "Dark": 59,
+      "Fire": 36,
+      "Ice": 100,
+      "Elec": 67,
+      "Force": 88
+    },
+    "Moroha": {
+      "Phys": 73,
+      "Light": 69,
+      "Dark": 82,
+      "Fire": 39,
+      "Ice": 81,
+      "Elec": 100,
+      "Force": 57
+    },
+    "Bario no Aza": {
+      "Phys": 83,
+      "Light": 92,
+      "Dark": 54,
+      "Fire": 0,
+      "Ice": 89,
+      "Elec": 100,
+      "Force": 61
+    },
+    "Jade": {
+      "Phys": 0,
+      "Light": 100,
+      "Dark": 72,
+      "Fire": 0,
+      "Ice": 56,
+      "Elec": 80,
+      "Force": 82
+    },
+    "Namic": {
+      "Phys": 0,
+      "Light": 80,
+      "Dark": 0,
+      "Fire": 0,
+      "Ice": 39,
+      "Elec": 67,
+      "Force": 100
+    },
+    "Mulhollandr": {
+      "Phys": 0,
+      "Light": 0,
+      "Dark": 0,
+      "Fire": 0,
+      "Ice": 100,
+      "Elec": 78,
+      "Force": 96
+    }
+  }
+}
