@@ -280,7 +280,6 @@ function render(players, relMap, titlesMap){
       : (type==="rel" ? "Type: Relative element ranking" : "Type: Growth (from first to last)");
     footer.innerHTML = `
       <div class="pill">${typeLabel}</div>
-      <div class="pill">Best element highlighted</div>
     `;
 
     inner.appendChild(top);
