@@ -273,14 +273,6 @@ function render(players, relMap, titlesMap){
       bars.appendChild(row);
     }
 
-    const footer = document.createElement("div");
-    footer.className="footer";
-    const typeLabel = (type==="abs_end")
-      ? "Type: Absolute element ranking"
-      : (type==="rel" ? "Type: Relative element ranking" : "Type: Growth (from first to last)");
-    footer.innerHTML = `
-      <div class="pill">${typeLabel}</div>
-    `;
 
     inner.appendChild(top);
     inner.appendChild(metrics);
