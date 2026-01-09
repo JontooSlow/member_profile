@@ -8,13 +8,13 @@
   --shadow:0 18px 50px rgba(0,0,0,.35);
   --radius:18px;
 
-  --fire:#ff5a7a;
-  --ice:#67d4ff;
-  --phys:#a7ff83;
-  --elec:#ffd36a;
-  --force:#b68cff;
-  --light:#fff1a6;
-  --dark:#7ea2ff;
+  --fire:#FF4500;
+  --ice:#00CED1;
+  --phys:#8B4513;
+  --elec:#FFD700;
+  --force:#32CD32;
+  --light:#FFD700;
+  --dark:#4B0082;
 }
 
 *{box-sizing:border-box}
