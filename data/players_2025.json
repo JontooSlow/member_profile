@@ -1090,7 +1090,13 @@
           "end": 213551016.0,
           "growth": 0.4111245073138887
         },
-        "Elec": {},
+        "Elec": {
+          "start_label": "Feb 2025",
+          "end_label": "Nov 2025",
+          "start": null,
+          "end": 165581117.0,
+          "growth": null
+        },
         "Fire": {
           "start_label": "May 2025",
           "end_label": "Aug 2025",
