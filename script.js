@@ -215,7 +215,7 @@ function render(players, relMap, titlesMap){
     const avg = avgEnd2025(p);
 
     metrics.innerHTML = `
-      <div>Average (end-2025): <b>${fmt(avg)}</b></div>
+      <div>Average per element: <b>${fmt(avg)}</b></div>
       <div>Elements with data: <b>${elCount}</b></div>
     `;
 
