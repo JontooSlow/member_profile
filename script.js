@@ -115,18 +115,6 @@ function computePerCardMax(p, type){
   return m || 0.0000001;
 }
 
-function buildBestElementFilter(players, type, relMap){
-  const sel = document.getElementById("filterMvp");
-  sel.querySelectorAll("option:not(:first-child)").forEach(o => o.remove());
-
-  unique(players.map(p => getBestElement(p, type, relMap))).sort().forEach(v=>{
-    if (!v) return;
-    const o=document.createElement("option");
-    o.value=v; o.textContent=v;
-    sel.appendChild(o);
-  });
-}
-
 function render(players, relMap, titlesMap){
   const q = (document.getElementById("q").value || "").trim().toLowerCase();
   const f = document.getElementById("filterMvp").value;
