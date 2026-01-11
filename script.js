@@ -117,16 +117,11 @@ function computePerCardMax(p, type){
 
 function render(players, relMap, titlesMap){
   const q = (document.getElementById("q").value || "").trim().toLowerCase();
-  const f = document.getElementById("filterMvp").value;
   const sortBy = document.getElementById("sortBy").value;
   const type = getType();
 
   let view = players.slice();
   if (q) view = view.filter(p => (p.displayName || p.nick || "").toLowerCase().includes(q));
-
-  if (f){
-    view = view.filter(p => getBestElement(p, type, relMap) === f);
-  }
 
   if (sortBy==="total_desc") view.sort((a,b)=>(b.total_end_2025||0)-(a.total_end_2025||0));
   if (sortBy==="total_asc") view.sort((a,b)=>(a.total_end_2025||0)-(b.total_end_2025||0));
@@ -300,11 +295,10 @@ async function init(){
 
   const rerender = () => {
     const type = getType();
-    buildBestElementFilter(players, type, relMap);
     render(players, relMap, titlesMap);
   };
 
-  ["q","filterMvp","sortBy","type"].forEach(id=>{
+  ["q","sortBy","type"].forEach(id=>{
     document.getElementById(id).addEventListener("input", rerender);
     document.getElementById(id).addEventListener("change", rerender);
   });
