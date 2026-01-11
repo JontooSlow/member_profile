@@ -115,6 +115,20 @@ function computePerCardMax(p, type){
   return m || 0.0000001;
 }
 
+function avgEnd2025(p){
+  let sum = 0;
+  let cnt = 0;
+
+  for (const el of ELEMENTS){
+    const v = p.elements?.[el]?.end;
+    if (v === null || v === undefined || Number.isNaN(v)) continue;
+    sum += v;
+    cnt += 1;
+  }
+
+  return cnt ? (sum / cnt) : null;
+}
+
 function render(players, relMap, titlesMap){
   const q = (document.getElementById("q").value || "").trim().toLowerCase();
   const sortBy = document.getElementById("sortBy").value;
@@ -123,8 +137,8 @@ function render(players, relMap, titlesMap){
   let view = players.slice();
   if (q) view = view.filter(p => (p.displayName || p.nick || "").toLowerCase().includes(q));
 
-  if (sortBy==="total_desc") view.sort((a,b)=>(b.total_end_2025||0)-(a.total_end_2025||0));
-  if (sortBy==="total_asc") view.sort((a,b)=>(a.total_end_2025||0)-(b.total_end_2025||0));
+  if (sortBy==="total_desc") view.sort((a,b)=> (avgEnd2025(b)||0) - (avgEnd2025(a)||0));
+  if (sortBy==="total_asc") view.sort((a,b)=> (avgEnd2025(a)||0) - (avgEnd2025(b)||0));
   if (sortBy==="name_asc") view.sort((a,b)=> String(a.displayName||a.nick).localeCompare(String(b.displayName||b.nick)));
   if (sortBy==="name_desc") view.sort((a,b)=> String(b.displayName||b.nick).localeCompare(String(a.displayName||a.nick)));
   if (sortBy==="joined") view.sort((a,b)=>(a.joinedIndex??0)-(b.joinedIndex??0));
@@ -198,8 +212,10 @@ function render(players, relMap, titlesMap){
     const metrics = document.createElement("div");
     metrics.className="metrics";
     const elCount = Object.values(p.elements || {}).filter(x => x && (x.end!==undefined || x.growth!==undefined)).length;
+    const avg = avgEnd2025(p);
+
     metrics.innerHTML = `
-      <div>Total (end-2025): <b>${fmt(p.total_end_2025)}</b></div>
+      <div>Average (end-2025): <b>${fmt(avg)}</b></div>
       <div>Elements with data: <b>${elCount}</b></div>
     `;
 
